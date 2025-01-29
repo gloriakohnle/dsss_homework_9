@@ -12,7 +12,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from transformers import pipeline
 pipe = pipeline("text-generation", model="openai-community/gpt2")
 
-TOKEN: Final = '7209622006:AAEul4_miufC6ypPv3KcAPm0HMjRHPwkJGM'
+TOKEN: Final = 'insert-token-here'
 BOT_USERNAME: Final = '@DataScienceGloriaBot'
 nest_asyncio.apply()
 # Commands
